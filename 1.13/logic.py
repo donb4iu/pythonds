@@ -150,13 +150,13 @@ def main():
 
    print("NOR: ", g3.getOutput())
 
-   g4 = NandGate("G4")
-   g5 = NandGate("G5")
-   g6 = AndGate("G6")  
+ #  g4 = NandGate("G4")
+ #  g5 = NandGate("G5")
+ #  g6 = AndGate("G6")  
 
-   c1 = Connector(g4,g6)
-   c2 = Connector(g5,g6)
+ #  c1 = Connector(g4,g6)
+ #  c2 = Connector(g5,g6)
 
-   print("Nand: ", g6.getOutput())
+ #  print("Nand: ", g6.getOutput())
 
 main()
